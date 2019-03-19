@@ -68,7 +68,7 @@ void vLedBlink(void *pvParameters) {
 // 		vDisplayWriteStringAtPos(1,0,"Heap: %d", heap);
 // 		vDisplayWriteStringAtPos(2,0,"TaskStack: %d", taskStack);
 // 		vDisplayWriteStringAtPos(3,0,"FreeSpace: %d", stack+heap);
-// Hallo
+// Nicolas Knopf Test
 		PORTF.OUTTGL = 0x01;				
 		vTaskDelay(100 / portTICK_RATE_MS);
 	}
